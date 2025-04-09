@@ -2,9 +2,13 @@ import React from "react";
 
 function NavBar() {
   return (
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
+    <nav className="navbar">
+      <a className="nav-item" href="#home">
+        Home
+      </a>
+      <a className="nav-item" href="#about">
+        About
+      </a>
     </nav>
   );
 }
